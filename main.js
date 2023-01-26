@@ -4,23 +4,18 @@ init();
 const add = function (a, b) {
     return a + b;
 };
-
 const subtract = function (a, b) {
     return a - b;
 };
-
 const multiply = function (a, b) {
     return a * b;
 };
-
-const power = function (a, b) {
+const divide = function (a, b) {
     return a / b;
 };
-
 function perform(num1, num2, operator) {
     num1 = Number(num1);
     num2 = Number(num2);
-
     switch (operator) {
         case 'add':
             return add(num1, num2);
